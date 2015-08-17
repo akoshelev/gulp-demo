@@ -17,7 +17,10 @@ gulp.task('default', function () {
         .pipe(tap(printFileInfo))
         .pipe(concat('scripts.js'))
         .pipe(tap(printFileInfo))
+        .pipe(gulp.dest('dist/'))
         .pipe(uglify())
         .pipe(rename('scripts.min.js'))
-        .pipe(tap(printFileInfo));
+        .pipe(tap(printFileInfo))
+        .pipe(gulp.dest('dist/'))
+        .pipe(gulp.dest('dist/min'));
 });
