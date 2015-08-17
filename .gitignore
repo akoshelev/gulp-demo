@@ -1,0 +1,44 @@
+# Bower
+libs/
+
+# Node Package Manager
+node_modules/
+
+# Project-specific ignores
+
+# temporary and distributive folders
+.tmp/
+dist/
+
+# environment-specific settings
+/environment.json
+
+# Microsoft VS Code references
+typings
+.settings
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+
+## Directory-based project format
+.idea/
+
+## File-based project format
+*.ipr
+*.iws
+*.iml
+
+*.tmp
+*.log
+*.scc
+
+
